@@ -1,0 +1,11 @@
+{
+  "name": "zeit-app",
+  "version": 2,
+  "public": true,
+  "builds": [
+    {
+      "src": "app.js",
+      "use": "@now/nodes-server"
+    }
+  ]
+}
